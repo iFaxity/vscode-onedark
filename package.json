@@ -1,0 +1,35 @@
+{
+	"name": "onedark",
+	"displayName": "OneDark++",
+	"description": "A theme based on the OneDark Theme from the editor Atom",
+	"version": "1.0.0",
+	"publisher": "ifaxity",
+    "repository": "https://github.com/iFaxity/vscode-onedark",
+	"license": "MIT",
+	"galleryBanner": {
+		"color": "#272b33",
+		"theme": "dark"
+	},
+	"engines": {
+		"vscode": "^1.12.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"atom",
+		"theme",
+		"one",
+		"dark",
+		"one dark"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "OneDark++",
+				"uiTheme": "vs-dark",
+				"path": "./themes/OneDark.json"
+			}
+		]
+	}
+}
