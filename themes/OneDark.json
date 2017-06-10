@@ -49,6 +49,14 @@
     "statusBar.background": "#20242a",
     "statusBar.debuggingBackground": "#6190ee",
     "statusBar.noFolderBackground": "#20242a",
+    // Title Bar (macOS)
+    "titlebar.activeBackground": "#20242a",
+    "titlebar.activeForeground": "#ffffff",
+    "titlebar.inactiveBackground": "272b33",
+    "titlebar.inactiveForeground": "#abb2c1",
+    // Notification
+    "notification.background": "#20242a",
+    "notification.foreground": "#ffffff",
     // Debug toolbar
     "debugToolBar.background": "#272b33"
   },
@@ -100,10 +108,18 @@
       }
     },
     {
+      "name": "JS Module",
+      "scope": "support.type.object.module",
+      "settings":  {
+        "foreground": "#e16971",
+        "fontStyle": ""
+      }
+    },
+    {
       "name": "Language Variable",
       "scope": "variable.language",
       "settings": {
-        "foreground": "#e16971",
+        "foreground": "#c776df",
         "fontStyle": ""
       }
     },
