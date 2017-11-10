@@ -58,7 +58,13 @@
     "notification.background": "#20242a",
     "notification.foreground": "#ffffff",
     // Debug toolbar
-    "debugToolBar.background": "#272b33"
+    "debugToolBar.background": "#272b33",
+    // Git decorations
+    "gitDecoration.modifiedResourceForeground": "#d19a66", // orange
+    "gitDecoration.deletedResourceForeground": "#e16971", // red
+    "gitDecoration.untrackedResourceForeground": "#96c474", // green
+    "gitDecoration.ignoredResourceForeground": "#5c6370", // gray
+    "gitDecoration.conflictingResourceForeground": "#c776df" // magenta
   },
   "tokenColors": [
     {
@@ -222,7 +228,10 @@
     },
     {
       "name": "Other Object",
-      "scope": "variable.other.object",
+      "scope": [
+        "variable.other.object",
+        "support.variable.object"
+      ],
       "settings": {
         "foreground": "#abb2c1",
         "fontStyle": ""
