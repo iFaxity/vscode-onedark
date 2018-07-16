@@ -190,7 +190,12 @@
       "name": "Other variable",
       "scope": [
         "variable.other.property",
-        "variable.other.block"
+        "variable.other.block",
+        "variable.other.object",
+        "support.variable"
+        /*"support.variable.property",
+        "support.variable.object",
+        "support.variable.dom"*/
       ],
       "settings": {
         "foreground": "#abb2c1",
@@ -223,17 +228,6 @@
       ],
       "settings": {
         "foreground": "#5eadf2",
-        "fontStyle": ""
-      }
-    },
-    {
-      "name": "Other Object",
-      "scope": [
-        "variable.other.object",
-        "support.variable.object"
-      ],
-      "settings": {
-        "foreground": "#abb2c1",
         "fontStyle": ""
       }
     },
