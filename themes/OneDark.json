@@ -49,14 +49,24 @@
     "statusBar.background": "#20242a",
     "statusBar.debuggingBackground": "#6190ee",
     "statusBar.noFolderBackground": "#20242a",
-    // Title Bar (macOS)
-    "titlebar.activeBackground": "#20242a",
-    "titlebar.activeForeground": "#ffffff",
-    "titlebar.inactiveBackground": "272b33",
-    "titlebar.inactiveForeground": "#abb2c1",
+    // Title Bar
+    "titleBar.activeBackground": "#20242a",
+    "titleBar.activeForeground": "#abb2c1",
+    "titleBar.inactiveBackground": "#20242a",
+    "titleBar.inactiveForeground": "#abb2c1",
     // Notification
     "notification.background": "#20242a",
     "notification.foreground": "#ffffff",
+    // Menues
+    "menu.background": "#272b33",
+    "menu.foreground": "#abb2c1",
+    "menubar.selectionBackground": "#20242a",
+    "menubar.selectionForeground": "#ffffff",
+    // Breadcrumb
+    "breadcrumb.foreground": "#abb2c1",
+    "breadcrumb.focusForeground": "#ffffff",
+    "breadcrumb.activeSelectionForeground": "#ffffff",
+    "breadcrumbPicker.background": "#272b33",
     // Debug toolbar
     "debugToolBar.background": "#272b33",
     // Git decorations
@@ -335,6 +345,7 @@
       "name": "StyleSheet Property Name",
       "scope": [
         "support.type.property-name.css",
+        "support.type.property-name.postcss",
         "support.type.property-name.scss",
         "support.type.property-name.less",
         "support.type.property-name.sass"
@@ -348,6 +359,7 @@
       "name": "StyleSheet Property value",
       "scope": [
         "support.constant.css",
+        "support.constant.postcss",
         "support.constant.scss",
         "support.constant.less",
         "support.constant.sass"
@@ -361,6 +373,7 @@
       "name": "StyleSheet Variable",
       "scope": [
         "variable.css",
+        "variable.postcss",
         "variable.scss",
         "variable.less",
         "variable.sass"
@@ -374,6 +387,7 @@
       "name": "StyleSheet Variable String",
       "scope": [
         "variable.css.string",
+        "variable.postcss.string",
         "variable.scss.string",
         "variable.less.string",
         "variable.sass.string"
@@ -387,6 +401,7 @@
       "name": "StyleSheet Unit",
       "scope": [
         "unit.css",
+        "unit.postcss",
         "unit.scss",
         "unit.less",
         "unit.sass"
@@ -400,6 +415,7 @@
       "name": "StyleSheet Function",
       "scope": [
         "function.css",
+        "function.postcss",
         "function.scss",
         "function.less",
         "function.sass"
