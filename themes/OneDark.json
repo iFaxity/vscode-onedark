@@ -144,7 +144,8 @@
       "scope": [
         "keyword",
         "keyword.operator.new",
-        "keyword.operator.expression"
+        "keyword.operator.expression",
+        "punctuation.definition.keyword"
       ],
       "settings": {
         "foreground": "#c776df",
@@ -155,7 +156,8 @@
       "name": "Operator & Separator",
       "scope": [
         //"keyword.operator",
-        "punctuation.separator.key-value"
+        "punctuation.separator.key-value",
+        "punctuation.destructuring"
       ],
       "settings": {
         "foreground": "#52b6c3",
@@ -178,7 +180,8 @@
         "entity.name.type",
         "entity.other.inherited-class",
         "storage.identifier",
-        "support.class"
+        "support.class",
+        "support.other.namespace"
       ],
       "settings": {
         "foreground": "#eedd92",
@@ -205,6 +208,17 @@
       ],
       "settings": {
         "foreground": "#5eadf2",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Function (stylus)",
+      "scope": [
+        "entity.name.function.stylus",
+        "support.function.filter.css"
+      ],
+      "settings": {
+        "foreground": "#56b6c2",
         "fontStyle": ""
       }
     },
@@ -409,7 +423,8 @@
       "name": "JSON Property Name",
       "scope": [
         "support.type.property-name",
-        "meta.object-literal.key"
+        "meta.object-literal.key",
+        "variable.object.property"
       ],
       "settings": {
         "foreground": "#e16971"
