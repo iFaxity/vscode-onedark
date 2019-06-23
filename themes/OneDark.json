@@ -49,11 +49,11 @@
     "editorWidget.background": "#20242a",
     // Statusbar
     "statusBar.foreground": "#fff",
-    "statusBar.background": "#6190ee",
-    "statusBar.debuggingBackground": "#96c474",
-    "statusBar.noFolderBackground": "#20242a",
-    "statusBarItem.remoteForeground": "#FFF",
-    "statusBarItem.remoteBackground": "#96c474",
+    "statusBar.background": "#20242a",
+    "statusBar.debuggingBackground": "#6190ee",
+    "statusBar.noFolderBackground": "#fff",
+    "statusBarItem.remoteForeground": "#fff",
+    "statusBarItem.remoteBackground": "#6190ee",
     // Title Bar
     "titleBar.activeBackground": "#20242a",
     "titleBar.activeForeground": "#abb2c1",
@@ -79,7 +79,24 @@
     "gitDecoration.deletedResourceForeground": "#e16971",
     "gitDecoration.untrackedResourceForeground": "#96c474",
     "gitDecoration.ignoredResourceForeground": "#5c6370",
-    "gitDecoration.conflictingResourceForeground": "#c776df"
+    "gitDecoration.conflictingResourceForeground": "#c776df",
+    // Terminal
+    "terminal.ansiBlack": "#000",
+    "terminal.ansiBlue": "#5eadf2",
+    "terminal.ansiCyan": "#56b6c2",
+    "terminal.ansiGreen": "#96c474",
+    "terminal.ansiMagenta": "#c776df",
+    "terminal.ansiRed": "#e16971",
+    "terminal.ansiWhite": "#fff",
+    "terminal.ansiYellow": "#eedd92",
+    "terminal.ansiBrightBlack": "#000",
+    "terminal.ansiBrightBlue": "#5eadf2",
+    "terminal.ansiBrightCyan": "#56b6c2",
+    "terminal.ansiBrightGreen": "#96c474",
+    "terminal.ansiBrightMagenta": "#c776df",
+    "terminal.ansiBrightRed": "#e16971",
+    "terminal.ansiBrightWhite": "#fff",
+    "terminal.ansiBrightYellow": "#eedd92"
   },
   "tokenColors": [
     {
@@ -183,7 +200,10 @@
       "scope": [
         "meta.function-call",
         "meta.method-call",
-        "support.function.construct.output"
+        "support.function.construct.output",
+        "entity.name.function.stylus",
+        "support.function.filter.css",
+        "support.function.misc"
       ],
       "settings": {
         "foreground": "#56b6c2",
@@ -224,7 +244,7 @@
         "support.constant"
       ],
       "settings": {
-        "foreground": "#383a42",
+        "foreground": "#abb2c1",
         "fontStyle": ""
       }
     },
@@ -325,7 +345,7 @@
         "variable.sass"
       ],
       "settings": {
-        "foreground": "#383a42",
+        "foreground": "#abb2c1",
         "fontStyle": ""
       }
     },

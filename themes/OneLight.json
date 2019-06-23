@@ -35,9 +35,10 @@
     "editorGroup.border": "#eee",//test
     "editorGroupHeader.tabsBackground": "#eee",//test
     // File explorer list
-    "list.hoverBackground": "#fafafa",//ok
+    "list.hoverBackground": "#4078f20f",//ok
+    "list.inactiveSelectionForeground": "#383a42",//ok
     "list.inactiveSelectionBackground": "#4078f230",//ok
-    "list.activeSelectionForeground": "#fafafa",//test
+    "list.activeSelectionForeground": "#383a42",//test
     "list.activeSelectionBackground": "#4078f250",//ok
     // Input controls
     "input.background": "#fafafa",//ok
@@ -47,12 +48,13 @@
     "panel.border": "#eee",//test
     "editorWidget.background": "#eee",//test
     // Statusbar
-    "statusBar.foreground": "#fff", //ok
-    "statusBar.background": "#4078f2",//ok
-    "statusBar.debuggingBackground": "#50a14f",//ok
-    "statusBar.noFolderBackground": "#fafafa",//test
+    "statusBar.foreground": "#383a42", //ok
+    "statusBar.background": "#eee",//ok
+    "statusBar.debuggingForeground": "#fff",//ok
+    "statusBar.debuggingBackground": "#4078f2",//ok
 		"statusBarItem.remoteForeground": "#fff",//ok
-		"statusBarItem.remoteBackground": "#50a14f",//ok
+		"statusBarItem.remoteBackground": "#4078f2",//ok
+    "statusBar.noFolderBackground": "#fff",//test
     // Title Bar
     "titleBar.activeBackground": "#eee",//test
     "titleBar.activeForeground": "#383a42",//ok
@@ -64,12 +66,12 @@
     // Menues
     "menu.background": "#eee",//ok
     "menu.foreground": "#383a42",//ok
-    "menubar.selectionBackground": "#fafafa",//test
-    "menubar.selectionForeground": "#fff",
+    "menubar.selectionBackground": "#fff",//test
+    "menubar.selectionForeground": "#383a42",
     // Breadcrumb
     "breadcrumb.foreground": "#383a42",//ok
-    "breadcrumb.focusForeground": "#fff",
-    "breadcrumb.activeSelectionForeground": "#fff",
+    "breadcrumb.focusForeground": "#696c77",
+    "breadcrumb.activeSelectionForeground": "#4078f2",
     "breadcrumbPicker.background": "#fafafa",//ok
     // Debug toolbar
     "debugToolBar.background": "#eee",//ok
@@ -78,7 +80,32 @@
     "gitDecoration.deletedResourceForeground": "#e45649",//ok
     "gitDecoration.untrackedResourceForeground": "#50a14f",//ok
     "gitDecoration.ignoredResourceForeground": "#a0a1a7",//ok
-    "gitDecoration.conflictingResourceForeground": "#a626a4"//ok
+    "gitDecoration.conflictingResourceForeground": "#a626a4",//ok
+    // Terminal
+    "terminal.ansiBlack": "#000",
+    "terminal.ansiBlue": "#4078f2",
+    "terminal.ansiCyan": "#0184bc",
+    "terminal.ansiGreen": "#50a14f",
+    "terminal.ansiMagenta": "#a626a4",
+    "terminal.ansiRed": "#e45649",
+    "terminal.ansiWhite": "#fff",
+    "terminal.ansiYellow": "#986801",
+    //"terminal.ansiBlack": "",
+    //"terminal.ansiBlue": "",
+    //"terminal.ansiCyan": "",
+    //"terminal.ansiGreen": "",
+    //"terminal.ansiMagenta": "",
+    //"terminal.ansiRed": "",
+    //"terminal.ansiWhite": "",
+    //"terminal.ansiYellow": "",
+    "terminal.ansiBrightBlack": "#000",
+    "terminal.ansiBrightBlue": "#4078f2",
+    "terminal.ansiBrightCyan": "#0184bc",
+    "terminal.ansiBrightGreen": "#50a14f",
+    "terminal.ansiBrightMagenta": "#a626a4",
+    "terminal.ansiBrightRed": "#e45649",
+    "terminal.ansiBrightWhite": "#fff",
+    "terminal.ansiBrightYellow": "#986801"
   },
   "tokenColors": [
     {
@@ -184,7 +211,8 @@
         "meta.method-call",
         "support.function.construct.output",
         "entity.name.function.stylus",
-        "support.function.filter.css"
+        "support.function.filter.css",
+        "support.function.misc"
       ],
       "settings": {
         "foreground": "#0184bc",
