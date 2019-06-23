@@ -2,7 +2,7 @@
   "name": "onedark",
   "displayName": "OneDark++",
   "description": "A theme based on the OneDark Theme from the editor Atom, also with supplementary light version",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "publisher": "ifaxity",
   "repository": "https://github.com/iFaxity/vscode-onedark",
   "license": "MIT",
