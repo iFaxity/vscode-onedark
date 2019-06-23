@@ -7,9 +7,8 @@
     "editorCursor.foreground": "#4078f2",//ok
     "editor.background": "#fafafa",//ok
     "editor.foreground": "#383a42",//ok
-    "editor.lineHighlightBorder": "#383a420f",
     "editor.lineHighlightBackground": "#383a420f",
-    "editor.inactiveSelectionBackground": "#3a3d41",
+    "editor.inactiveSelectionBackground": "#383a4233",
     "editorIndentGuide.background": "#383a4233", //test 2
     "editor.selectionHighlightBackground": "#add6ff26",
     "editor.selectionBackground": "#4078f246",//ok
@@ -113,24 +112,11 @@
       }
     },
     {
-      "name": "User-defined constant",
-      "scope": "constant.character",
-      "settings": {
-        "foreground": "#a626a4",
-        "fontStyle": ""
-      }
-    },
-    {
-      "name": "JS Module",
-      "scope": "support.type.object.module",
-      "settings": {
-        "foreground": "#e45649",
-        "fontStyle": ""
-      }
-    },
-    {
-      "name": "Language Variable",
-      "scope": "variable.language",
+      "name": "User-defined constant & Language Variable",
+      "scope": [
+        "constant.character",
+        "variable.language"
+      ],
       "settings": {
         "foreground": "#a626a4",
         "fontStyle": ""
@@ -140,7 +126,8 @@
       "name": "Variable",
       "scope": [
         "variable.readwrite",
-        "variable.readwrite.other.block"
+        "variable.readwrite.other.block",
+        "support.type.object.module"
       ],
       "settings": {
         "foreground": "#e45649",
@@ -154,7 +141,8 @@
         "keyword.operator.new",
         "keyword.operator.expression",
         "punctuation.definition.keyword",
-        "punctuation.separator.annotation.python"
+        "punctuation.separator.annotation.python",
+        "storage"
       ],
       "settings": {
         "foreground": "#a626a4",
@@ -162,21 +150,13 @@
       }
     },
     {
-      "name": "Operator & Separator",
+      "name": "Separator",
       "scope": [
         "punctuation.separator.key-value",
         "punctuation.destructuring"
       ],
       "settings": {
         "foreground": "#0184bc",
-        "fontStyle": ""
-      }
-    },
-    {
-      "name": "Storage",
-      "scope": "storage",
-      "settings": {
-        "foreground": "#a626a4",
         "fontStyle": ""
       }
     },
@@ -202,7 +182,9 @@
       "scope": [
         "meta.function-call",
         "meta.method-call",
-        "support.function.construct.output"
+        "support.function.construct.output",
+        "entity.name.function.stylus",
+        "support.function.filter.css"
       ],
       "settings": {
         "foreground": "#0184bc",
@@ -221,30 +203,7 @@
       }
     },
     {
-      "name": "Function (stylus)",
-      "scope": [
-        "entity.name.function.stylus",
-        "support.function.filter.css"
-      ],
-      "settings": {
-        "foreground": "#0184bc",
-        "fontStyle": ""
-      }
-    },
-    {
-      "name": "Other variable",
-      "scope": [
-        "variable.other",
-        "support.variable",
-        "meta.function-call.arguments"
-      ],
-      "settings": {
-        "foreground": "#383a42",
-        "fontStyle": ""
-      }
-    },
-    {
-      "name": "Punctuation",
+      "name": "Punctuation & Variable",
       "scope": [
         "punctuation.accessor",
         "punctuation.definition.arguments",
@@ -255,7 +214,13 @@
         "punctuation.definition.begin",
         "punctuation.definition.end",
         "punctuation.definition.parameters.begin",
-        "punctuation.definition.parameters.end"
+        "punctuation.definition.parameters.end",
+        // Variable
+        "variable.other",
+        "support.variable",
+        "meta.function-call.arguments",
+        // Library constant
+        "support.constant"
       ],
       "settings": {
         "foreground": "#383a42",
@@ -270,14 +235,6 @@
       ],
       "settings": {
         "foreground": "#50a14f",
-        "fontStyle": ""
-      }
-    },
-    {
-      "name": "Library constant",
-      "scope": "support.constant",
-      "settings": {
-        "foreground": "#383a42",
         "fontStyle": ""
       }
     },
@@ -305,7 +262,8 @@
       "name": "Tag Class and ID",
       "scope": [
         "entity.name.tag.class",
-        "entity.name.tag.id"
+        "entity.name.tag.id",
+        "entity.other.attribute-name.id"
       ],
       "settings": {
         "foreground": "#0184bc",
@@ -314,9 +272,12 @@
     },
     {
       "name": "Tag attribute",
-      "scope": "entity.other.attribute-name",
+      "scope": [
+        "entity.other.attribute-name",
+        "entity.other.attribute-name.class"
+      ],
       "settings": {
-        "foreground": "#986801",
+        "foreground": "#e27712",
         "fontStyle": ""
       }
     },
@@ -325,14 +286,6 @@
       "scope": "entity.other.attribute-name.class",
       "settings": {
         "foreground": "#986801",
-        "fontStyle": ""
-      }
-    },
-    {
-      "name": "Attribute ID",
-      "scope": "entity.other.attribute-name.id",
-      "settings": {
-        "foreground": "#0184bc",
         "fontStyle": ""
       }
     },
@@ -434,15 +387,10 @@
     },
     {
       "name": "Invalid",
-      "scope": "invalid",
-      "settings": {
-        "foreground": "#e45649",
-        "fontStyle": "underline"
-      }
-    },
-    {
-      "name": "Invalid deprecated",
-      "scope": "invalid.deprecated",
+      "scope": [
+        "invalid",
+        "invalid.deprecated"
+      ],
       "settings": {
         "foreground": "#e45649",
         "fontStyle": "underline"
@@ -460,7 +408,7 @@
       }
     },
     {
-      "name": "diff.header",
+      "name": "Diff header",
       "scope": [
         "meta.diff",
         "meta.diff.header"
@@ -471,7 +419,7 @@
       }
     },
     {
-      "name": "diff.deleted",
+      "name": "Diff deleted",
       "scope": "markup.deleted",
       "settings": {
         "foreground": "#e45649",
@@ -479,7 +427,7 @@
       }
     },
     {
-      "name": "diff.inserted",
+      "name": "Diff inserted",
       "scope": "markup.inserted",
       "settings": {
         "foreground": "#50a14f",
@@ -487,7 +435,7 @@
       }
     },
     {
-      "name": "diff.changed",
+      "name": "Diff changed",
       "scope": "markup.changed",
       "settings": {
         "foreground": "#0184bc",
