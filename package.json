@@ -1,7 +1,7 @@
 {
   "name": "onedark",
-  "displayName": "OneDark++",
-  "description": "A theme based on the OneDark Theme from the editor Atom, also with supplementary light version",
+  "displayName": "OneDark++ & OneLight++",
+  "description": "A theme based on the OneDark Theme from the editor Atom, now with supplementary light version.",
   "version": "1.4.0",
   "publisher": "ifaxity",
   "repository": "https://github.com/iFaxity/vscode-onedark",

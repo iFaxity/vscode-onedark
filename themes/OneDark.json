@@ -159,7 +159,6 @@
         "keyword.operator.new",
         "keyword.operator.expression",
         "punctuation.definition.keyword",
-        "punctuation.separator.annotation.python",
         "storage"
       ],
       "settings": {
@@ -171,7 +170,8 @@
       "name": "Separator",
       "scope": [
         "punctuation.separator.key-value",
-        "punctuation.destructuring"
+        "punctuation.destructuring",
+        "punctuation.separator.annotation.python"
       ],
       "settings": {
         "foreground": "#56b6c2",

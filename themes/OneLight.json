@@ -90,14 +90,6 @@
     "terminal.ansiRed": "#e45649",
     "terminal.ansiWhite": "#fff",
     "terminal.ansiYellow": "#986801",
-    //"terminal.ansiBlack": "",
-    //"terminal.ansiBlue": "",
-    //"terminal.ansiCyan": "",
-    //"terminal.ansiGreen": "",
-    //"terminal.ansiMagenta": "",
-    //"terminal.ansiRed": "",
-    //"terminal.ansiWhite": "",
-    //"terminal.ansiYellow": "",
     "terminal.ansiBrightBlack": "#000",
     "terminal.ansiBrightBlue": "#4078f2",
     "terminal.ansiBrightCyan": "#0184bc",
@@ -168,7 +160,6 @@
         "keyword.operator.new",
         "keyword.operator.expression",
         "punctuation.definition.keyword",
-        "punctuation.separator.annotation.python",
         "storage"
       ],
       "settings": {
@@ -180,7 +171,8 @@
       "name": "Separator",
       "scope": [
         "punctuation.separator.key-value",
-        "punctuation.destructuring"
+        "punctuation.destructuring",
+        "punctuation.separator.annotation.python"
       ],
       "settings": {
         "foreground": "#0184bc",
