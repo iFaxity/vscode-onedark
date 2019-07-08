@@ -96,7 +96,10 @@
     "terminal.ansiBrightMagenta": "#c776df",
     "terminal.ansiBrightRed": "#e16971",
     "terminal.ansiBrightWhite": "#fff",
-    "terminal.ansiBrightYellow": "#eedd92"
+    "terminal.ansiBrightYellow": "#eedd92",
+    // Badge
+    "badge.background": "#6190ee",
+    "badge.foreground": "#fff"
   },
   "tokenColors": [
     {
@@ -171,7 +174,8 @@
       "scope": [
         "punctuation.separator.key-value",
         "punctuation.destructuring",
-        "punctuation.separator.annotation.python"
+        "punctuation.separator.annotation.python",
+        "punctuation.separator.dict.python"
       ],
       "settings": {
         "foreground": "#56b6c2",
