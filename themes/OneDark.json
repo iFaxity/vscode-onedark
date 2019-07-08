@@ -51,7 +51,7 @@
     "statusBar.foreground": "#fff",
     "statusBar.background": "#20242a",
     "statusBar.debuggingBackground": "#6190ee",
-    "statusBar.noFolderBackground": "#fff",
+    "statusBar.noFolderBackground": "#20242a",
     "statusBarItem.remoteForeground": "#fff",
     "statusBarItem.remoteBackground": "#6190ee",
     // Title Bar

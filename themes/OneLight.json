@@ -52,9 +52,9 @@
     "statusBar.background": "#eee",//ok
     "statusBar.debuggingForeground": "#fff",//ok
     "statusBar.debuggingBackground": "#4078f2",//ok
-		"statusBarItem.remoteForeground": "#fff",//ok
-		"statusBarItem.remoteBackground": "#4078f2",//ok
-    "statusBar.noFolderBackground": "#fff",//test
+    "statusBarItem.remoteForeground": "#fff",//ok
+    "statusBarItem.remoteBackground": "#4078f2",//ok
+    "statusBar.noFolderBackground": "#eee",//ok
     // Title Bar
     "titleBar.activeBackground": "#eee",//test
     "titleBar.activeForeground": "#383a42",//ok
