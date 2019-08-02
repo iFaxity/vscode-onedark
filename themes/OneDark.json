@@ -245,7 +245,10 @@
         "support.variable",
         "meta.function-call.arguments",
         // Library constant
-        "support.constant"
+        "support.constant",
+        // HTML
+        "meta.embedded.block.html",
+        "entity.name.function.tagged-template.js"
       ],
       "settings": {
         "foreground": "#abb2c1",
