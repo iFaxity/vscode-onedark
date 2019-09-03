@@ -37,9 +37,11 @@
     "editorGroup.border": "#fff",
     "editorGroupHeader.tabsBackground": "#20242a",
     // File explorer list
-    "list.hoverBackground": "#272b33",
-    "list.inactiveSelectionBackground": "#6190ee30",
-    "list.activeSelectionBackground": "#6190ee50",
+    "list.hoverBackground": "#272b33",//ok
+    "list.inactiveSelectionForeground": "#272b33",//ok
+    "list.inactiveSelectionBackground": "#6190ee30",//ok
+    "list.activeSelectionForeground": "#272b33",//test
+    "list.activeSelectionBackground": "#6190ee50",//ok
     // Input controls
     "input.background": "#272b33",
     "dropdown.background": "#272b33",
@@ -50,10 +52,11 @@
     // Statusbar
     "statusBar.foreground": "#fff",
     "statusBar.background": "#20242a",
+    "statusBar.debuggingForeground": "#fff",//ok
     "statusBar.debuggingBackground": "#6190ee",
-    "statusBar.noFolderBackground": "#20242a",
     "statusBarItem.remoteForeground": "#fff",
     "statusBarItem.remoteBackground": "#6190ee",
+    "statusBar.noFolderBackground": "#20242a",
     // Title Bar
     "titleBar.activeBackground": "#20242a",
     "titleBar.activeForeground": "#abb2c1",
@@ -207,7 +210,8 @@
         "support.function.construct.output",
         "entity.name.function.stylus",
         "support.function.filter.css",
-        "support.function.misc"
+        "support.function.misc",
+        "support.function.builtin.shell",
       ],
       "settings": {
         "foreground": "#56b6c2",
@@ -220,7 +224,8 @@
         "meta.definition.function",
         "meta.definition.method",
         "entity.name.function.stylus",
-        "support.function.filter.css"
+        "support.function.filter.css",
+        "entity.name.function.shell",
       ],
       "settings": {
         "foreground": "#5eadf2",
