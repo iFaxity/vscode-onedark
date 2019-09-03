@@ -38,9 +38,9 @@
     "editorGroupHeader.tabsBackground": "#eee",//test
     // File explorer list
     "list.hoverBackground": "#4078f20f",//ok
-    "list.inactiveSelectionForeground": "#383a42",//ok
+    "list.inactiveSelectionForeground": "#fff",//ok
     "list.inactiveSelectionBackground": "#4078f230",//ok
-    "list.activeSelectionForeground": "#383a42",//test
+    "list.activeSelectionForeground": "#fff",//test
     "list.activeSelectionBackground": "#4078f250",//ok
     // Input controls
     "input.background": "#fafafa",//ok
