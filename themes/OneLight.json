@@ -118,7 +118,10 @@
     },
     {
       "name": "String",
-      "scope": "string",
+      "scope": [
+        "string",
+        "punctuation.definition.string"
+      ],
       "settings": {
         "foreground": "#50a14f",
         "fontStyle": ""
