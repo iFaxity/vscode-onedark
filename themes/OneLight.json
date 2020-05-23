@@ -189,13 +189,14 @@
       }
     },
     {
-      "name": "Class name",
+      "name": "Class, Interface, Enum",
       "scope": [
         "entity.name.class",
         "entity.name.module",
         "entity.name.type",
         "entity.other.inherited-class",
         "storage.identifier",
+        "storage.type",
         "support.class",
         "support.other.namespace",
         "support.type"
