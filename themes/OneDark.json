@@ -196,7 +196,7 @@
         "entity.name.type",
         "entity.other.inherited-class",
         "storage.identifier",
-        "storage.type",
+        "storage.type.cs",
         "support.class",
         "support.other.namespace",
         "support.type"
