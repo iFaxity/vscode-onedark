@@ -102,14 +102,23 @@
     "terminal.ansiBrightYellow": "#eedd92",
     // Badge
     "badge.background": "#6190ee",
-    "badge.foreground": "#fff"
+    "badge.foreground": "#fff",
+    // Input
+    "button.background": "#6190ee",
+    "button.foreground": "#fff",
+    "button.hoverBackground": "#4d82ec",
+    "checkbox.background": "#6190ee",
+    "checkbox.foreground": "#fff",
+    "checkbox.border": "#fff"
   },
   "tokenColors": [
     {
       "name": "Comment",
       "scope": [
         "comment",
-        "string.comment"
+        "string.comment",
+        "punctuation.definition.quote.begin.markdown",
+        "markup.quote"
       ],
       "settings": {
         "foreground": "#5c6370",
@@ -255,8 +264,8 @@
         "meta.function-call.arguments",
         // Library constant
         "support.constant",
-        // HTML
-        "meta.embedded.block.html",
+        // HTML, XML, SVG
+        "meta.embedded.block",
         "entity.name.function.tagged-template.js"
       ],
       "settings": {
@@ -277,7 +286,10 @@
     },
     {
       "name": "Template expression",
-      "scope": "meta.template.expression",
+      "scope": [
+        "meta.template.expression",
+        "string.js.taggedTemplate.svg"
+      ],
       "settings": {
         "foreground": "#eedd92",
         "fontStyle": ""
@@ -475,6 +487,46 @@
         "foreground": "#56b6c2",
         "fontStyle": ""
       }
-    }
+    },
+    {
+      "name": "Markdown underline",
+      "scope": "markup.underline",
+      "settings": {
+        "fontStyle": "underline"
+      }
+    },
+    {
+      "name": "Markdown bold",
+      "scope": "markup.bold",
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#c776df"
+      }
+    },
+    {
+      "name": "Markdown italic",
+      "scope": "markup.italic",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#c776df"
+      }
+    },
+    {
+      "name": "Markdown list",
+      "scope": [
+        "markup.heading",
+        "punctuation.definition.list.begin.markdown"
+      ],
+      "settings": {
+        "foreground": "#5eadf2"
+      }
+    },
+    {
+      "name": "Markdown raw string",
+      "scope": "markup.inline.raw",
+      "settings": {
+        "foreground": "#eedd92"
+      }
+    },
   ]
 }
