@@ -512,13 +512,17 @@
       }
     },
     {
-      "name": "Markdown list",
-      "scope": [
-        "markup.heading",
-        "punctuation.definition.list.begin.markdown"
-      ],
+      "name": "Markdown heading",
+      "scope": "markup.heading",
       "settings": {
-        "foreground": "#4078f2"
+        "foreground": "#50a14f"
+      }
+    },
+    {
+      "name": "Markdown list",
+      "scope": "punctuation.definition.list.begin.markdown",
+      "settings": {
+        "foreground": "#0184bc"
       }
     },
     {
@@ -527,6 +531,6 @@
       "settings": {
         "foreground": "#986801"
       }
-    },
+    }
   ]
 }
