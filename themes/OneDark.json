@@ -215,7 +215,7 @@
         "entity.name.function.stylus",
         "support.function.filter.css",
         "support.function.misc",
-        "support.function.builtin.shell",
+        "support.function.builtin.shell"
       ],
       "settings": {
         "foreground": "#56b6c2",
@@ -230,6 +230,7 @@
         "entity.name.function.stylus",
         "support.function.filter.css",
         "entity.name.function.shell",
+        "entity.name.function.cs"
       ],
       "settings": {
         "foreground": "#5eadf2",
@@ -412,7 +413,8 @@
       "scope": [
         "support.type.property-name",
         "meta.object-literal.key",
-        "variable.object.property"
+        "variable.object.property",
+        "variable.other.object.property.cs"
       ],
       "settings": {
         "foreground": "#e16971",
