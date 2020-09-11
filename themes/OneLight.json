@@ -190,7 +190,8 @@
         "punctuation.separator.key-value",
         "punctuation.destructuring",
         "punctuation.separator.annotation.python",
-        "punctuation.separator.dict.python"
+        "punctuation.separator.dict.python",
+        "punctuation.separator.colon.cs"
       ],
       "settings": {
         "foreground": "#0184bc",
