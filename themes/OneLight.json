@@ -103,7 +103,7 @@
     // Badge
     "badge.background": "#ff7ffd",
     "badge.foreground": "#fff",
-    //
+    // Input
     "button.background": "#ff7ffd",
     "button.foreground": "#fff",
     "button.hoverBackground": "#f373f1",
@@ -250,6 +250,9 @@
     {
       "name": "Punctuation & Variable",
       "scope": [
+        // Punctuation characters
+        "punctuation.squarebracket",
+        "punctuation.parenthesis",
         "punctuation.accessor",
         "punctuation.definition.arguments",
         "punctuation.separator.delimiter",
@@ -260,10 +263,11 @@
         "punctuation.definition.end",
         "punctuation.definition.parameters.begin",
         "punctuation.definition.parameters.end",
-        // Variable
+        // Variables
         "variable.other",
         "support.variable",
         "meta.function-call.arguments",
+        "entity.name.variable.parameter",
         // Library constant
         "support.constant",
         // HTML, XML, SVG
