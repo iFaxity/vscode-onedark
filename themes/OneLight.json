@@ -240,7 +240,9 @@
         "entity.name.function.stylus",
         "support.function.filter.css",
         "entity.name.function.shell",
-        "entity.name.function.cs"
+        "entity.name.function.cs",
+        // Powershell commandlets
+        "support.function.powershell"
       ],
       "settings": {
         "foreground": "#4078f2",
